@@ -1,0 +1,45 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, sans-serif;
+    border-collapse: collapse;
+    color: #090068;
+    word-break: break-all;
+}
+caption {
+    padding: 10px;
+    color: #8da9fa;
+    background: #7e97d4;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+}
+th {
+    border-bottom: 3px solid #b3d7e8;
+    padding: 10px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+}
+tr:nth-child(odd) {
+    background: #78b0ff;
+}
+tr:nth-child(even) {
+    background: #b3d7e9;
+}
+
+.empty {
+    text-align: center;
+}
+.add-task {
+    text-align: center;
+    font-family: "FontAwesome", sans-serif;
+    display: inline-block;
+    background: #59639d;
+    color: #fff;
+    padding: 1rem 4rem;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.f {
+    text-align: center;
+}
